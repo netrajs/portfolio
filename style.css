@@ -1,0 +1,165 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.navbar{
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3F4F78;
+  color: aliceblue;
+}
+.navbar ul{
+  display: flex;
+  justify-content: center;
+}
+.navbar li{
+  list-style: none;
+  margin: 0 35px;
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: aliceblue;
+}
+.navbar a:hover{
+  text-decoration:underline #D9B07C;
+  text-decoration-thickness: 3px;
+  color: aliceblue;
+  font-size: 1.04rem;
+}
+
+body{
+  background-color:#D6DBF5;
+  font-family: 'poppins', sans-serif ;
+}
+.left{
+  font-size: 1.5rem;
+}
+.first{
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+.first div{
+  width: 45%;
+}
+img{
+  width: 100%;
+  margin: 100px 0;
+}
+.leftsection{
+  font-size: 3rem;
+  color: #08080A;
+  margin-top: 160px;
+  margin-left: 35px;
+}
+
+.leftsection span {
+  color: inherit;
+}
+
+.leftsection .name {
+  color: #8A2BE2; 
+}
+.site-footer {
+  background-color: #3F4F78;
+  color: aliceblue;
+  padding: 35px 15px;
+  margin-top: 80px;
+}
+
+.footer-content {
+  max-width: 1100px;
+  margin: auto;
+  text-align: center;
+}
+
+.site-footer p {
+  margin: 6px 0;
+  font-size: 0.95rem;
+}
+
+.site-footer a {
+  color: #D9B07C;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
+}
+
+.made-with {
+  opacity: 0.9;
+}
+
+.social-links {
+  margin-top: 15px;
+}
+
+.social-links a {
+  color: aliceblue;
+  margin: 0 12px;
+  font-size: 1.5rem;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.social-links a:hover {
+  color: #D9B07C;
+  transform: translateY(-3px);
+}
+@media (max-width: 768px) {
+
+  /* Navbar */
+  .navbar {
+    flex-direction: column;
+    height: auto;
+    padding: 15px 0;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .navbar li {
+    margin: 0;
+  }
+
+  .left {
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+  }
+
+  /* Hero section */
+  .first {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .first div {
+    width: 90%;
+  }
+
+  .leftsection {
+    font-size: 2rem;
+    margin: 40px 0 20px 0;
+  }
+
+  .rightsection img {
+    margin: 30px 0;
+    width: 90%;
+  }
+
+  /* Footer */
+  .site-footer {
+    padding: 25px 10px;
+  }
+
+  .social-links a {
+    font-size: 1.3rem;
+    margin: 0 10px;
+  }
+}
